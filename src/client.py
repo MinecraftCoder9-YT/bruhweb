@@ -2,9 +2,9 @@ import os, webbrowser
 import socket, sys
 
 def opn(text):
-    with open("test.html", "w") as h:
+    with open("tempsrc.html", "w") as h:
         h.write(text)
-        path = os.path.abspath("test.html")
+        path = os.path.abspath("tempsrc.html")
         webbrowser.open(path)
 
 
